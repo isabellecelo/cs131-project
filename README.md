@@ -26,4 +26,10 @@ We are developing a smart camera system that captures ASL (American Sign Languag
 ## Current Progress
 - System design drafted
 - Component roles defined
-- ML pipeline research ongoing
+- ML pipeline research is ongoing
+
+## Use Cases
+- Assist healthcare workers in communicating with Deaf patients
+- Enable inclusive communication in hospitals and clinics
+- Educational tool for learning ASL
+
