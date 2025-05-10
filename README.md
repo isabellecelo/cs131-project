@@ -17,10 +17,10 @@ We are developing a smart camera system that captures ASL (American Sign Languag
 - Voice-to-ASL output using a digital character
 
 ## Technologies Used
-- TensorFlow (ML models for gesture recognition)
-- AWS (Cloud processing and storage)
-- NVIDIA Jetson Nano (Edge processing)
 - Logitech Camera (Video input)
+- NVIDIA Jetson Nano (Processes simple gestures locally using TensorFlow models)
+- TensorFlow (ML models for gesture recognition)
+- AWS (Handles complex gestures, translation, and voice synthesis)
 - USB Speaker (Audio output)
 
 ## Current Progress
