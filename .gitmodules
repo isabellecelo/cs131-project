@@ -1,0 +1,3 @@
+[submodule "Gesture-Recognition"]
+	path = Gesture-Recognition
+	url = https://github.com/aqua1907/Gesture-Recognition.git
