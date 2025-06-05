@@ -67,7 +67,7 @@ def predict_gesture(frame):
     else:
         return "", None
 
-
+print("Loaded model type:", type(gesture_clf))
 
 def main():
     cap = cv2.VideoCapture(0)
@@ -114,7 +114,7 @@ def main():
                 static_gesture_count = 0
 
         # Limit buffer size
-        if len(buffer) > 20:
+        if len(buffer) > 6:
             buffer.pop(0)
 
         current_seq = ''.join(buffer)

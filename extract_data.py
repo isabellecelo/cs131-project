@@ -30,7 +30,7 @@ labels = []
 
 for label in tqdm(LABELS):
     folder = os.path.join(DATASET_PATH, label)
-    for img_file in os.listdir(folder)[:30]:
+    for img_file in os.listdir(folder)[:200]:
         img_path = os.path.join(folder, img_file)
         image = cv2.imread(img_path)
         if image is None:
